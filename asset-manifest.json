@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BrunoBaumgartner78/coin/static/css/main.3c42e11d.css",
+    "main.js": "/BrunoBaumgartner78/coin/static/js/main.c928f2cc.js",
+    "static/js/453.faf9b58e.chunk.js": "/BrunoBaumgartner78/coin/static/js/453.faf9b58e.chunk.js",
+    "index.html": "/BrunoBaumgartner78/coin/index.html",
+    "main.3c42e11d.css.map": "/BrunoBaumgartner78/coin/static/css/main.3c42e11d.css.map",
+    "main.c928f2cc.js.map": "/BrunoBaumgartner78/coin/static/js/main.c928f2cc.js.map",
+    "453.faf9b58e.chunk.js.map": "/BrunoBaumgartner78/coin/static/js/453.faf9b58e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c42e11d.css",
+    "static/js/main.c928f2cc.js"
+  ]
+}
