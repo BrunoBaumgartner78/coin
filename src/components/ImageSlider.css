@@ -1,0 +1,20 @@
+/* In src/App.css oder src/components/ImageSlider.css */
+
+.image-slider {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+  }
+  
+  .coin-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .coin-image:hover {
+    transform: scale(1.1);
+  }
+  

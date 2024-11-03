@@ -1,0 +1,50 @@
+/* In src/CoinFlip.css oder direkt in App.css */
+
+.coin-flip-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    border: none;
+    color: antiquewhite;
+  }
+  
+  .coin-container {
+    position: static;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px; /* Perspektive für 3D-Effekt */
+    top: 20%;
+    margin: 10px auto;
+  }
+  
+  .coin {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+    backface-visibility: hidden;
+  }
+  
+  .flipping {
+    animation: flip-animation 0.2s ease-in-out 5; /* 5 schnelle Rotationen */
+  }
+  
+  @keyframes flip-animation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  
